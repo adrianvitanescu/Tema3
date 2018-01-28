@@ -28,7 +28,7 @@ public class InputDataValidation {
      * within a certain range
      * @param hour
      */
-    private void validateHour(int hour) {
+    public void validateHour(int hour) {
         if ((hour <= 23) && (hour > 0)) {
             System.out.print("The time is: " + hour + " hh");
         } else {
@@ -41,7 +41,7 @@ public class InputDataValidation {
      * within a certain range.
      * @param minutes
      */
-    private void validateMinutes(int minutes) {
+    public void validateMinutes(int minutes) {
         if (minutes < 60 && minutes > 0) {
             System.out.print(" : " + minutes + " mm, now!\n");
         } else {

@@ -1,10 +1,10 @@
 /**
  * 1. Calculate Max
- - Create a method GetMax() with two integer (int) parameters,
- that returns maximal of the two numbers.
- - Write a program that reads three numbers from the console
- and prints the biggest of them.
- Use the GetMax() method you just created.
+ * - Create a method GetMax() with two integer (int) parameters,
+ * that returns maximal of the two numbers.
+ * - Write a program that reads three numbers from the console
+ * and prints the biggest of them.
+ * Use the GetMax() method you just created.
  */
 
 package main.java.ro.sci.tema2;

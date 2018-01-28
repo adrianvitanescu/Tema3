@@ -14,6 +14,7 @@ package main.java.ro.sci.tema2;
 
 public class FahrenheitToCelsius {
 
+    private int celsius;
     /**
      * convertTemperature method - convert temperatures from fahrenheit to
      * celsius using a math. formula, and we use the IF statements to
@@ -22,11 +23,14 @@ public class FahrenheitToCelsius {
      */
     public void convertTemperature(int fahrenheit){
         char degrees = '\u00B0';
-        int celsius = (fahrenheit - 32) * 5/9;
+        celsius = (fahrenheit - 32) * 5/9;
         System.out.println(celsius + "" + degrees + "C");
         if (celsius > 37){
             System.out.println("You are ill!");
         }
     }
 
+    public int getCelsius() {
+        return celsius;
+    }
 }
